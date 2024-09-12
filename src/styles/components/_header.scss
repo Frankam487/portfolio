@@ -1,0 +1,43 @@
+.header {
+    background: $white;
+    padding: 25px 50px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+        // background: #fff;
+        text-align: center;
+        border: 1px solid $black;
+        font-weight: bold;
+        color: $darkblue;
+
+        span {
+            color: $darkblue;
+            font-weight: bold;
+        }
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+        align-items: center;
+        padding: 0 22px 0 0;
+
+        li {
+            list-style: none;
+            font-size: 1.2rem;
+
+            a {
+                text-decoration: none;
+                font-weight: 800;
+                margin: 0 15px;
+                color: $darkblue;
+
+            }
+        }
+    }
+}

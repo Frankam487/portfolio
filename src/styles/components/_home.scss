@@ -1,0 +1,49 @@
+.home {
+    
+    position: absolute;
+    top: 40%;
+    left: 9%;
+    font-family: $font3;
+
+    .name-content {
+        padding: 10px 0;
+        h1 {
+            color: $darkblue;
+            font-weight: 900;
+        }
+        h4 {
+            font-size: 1.5rem;
+            color: $skyblue;
+        }
+        h5{
+            font-size: 1.1rem;
+            margin: 7px 0;
+        }
+    }
+    p{
+        margin: 20px auto;
+    }
+    .btns-container {
+        margin-left: -30px;
+        padding: 10px;
+        .tel{
+            background: $skyblue;
+        }
+        button {
+            margin: 0 20px;
+            padding: 10px;
+            border: 3px solid $skyblue;
+            text-align: left;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: .1s ease;
+            
+            &:hover {
+                
+                background: $skyblue;
+                color: $white;
+                font-weight: 700;
+            }
+        }
+    }
+}
