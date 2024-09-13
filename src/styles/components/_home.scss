@@ -1,5 +1,5 @@
 .home {
-    
+
     position: absolute;
     top: 40%;
     left: 9%;
@@ -7,39 +7,51 @@
 
     .name-content {
         padding: 10px 0;
+
         h1 {
             color: $darkblue;
             font-weight: 900;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8),
+                -1px -1px 0px rgba(0, 0, 0, 0.8),
+                1px -1px 0px rgba(0, 0, 0, 0.8),
+                -1px 1px 0px rgba(0, 0, 0, 0.8);
+            letter-spacing: 3px;
         }
+
         h4 {
             font-size: 1.5rem;
             color: $skyblue;
         }
-        h5{
+
+        h5 {
             font-size: 1.1rem;
             margin: 7px 0;
         }
     }
-    p{
+
+    p {
         margin: 20px auto;
     }
+
     .btns-container {
         margin-left: -30px;
         padding: 10px;
-        .tel{
+
+        .tel {
             background: $skyblue;
         }
+
         button {
             margin: 0 20px;
             padding: 10px;
-            border: 3px solid $skyblue;
+            border: 2px solid $skyblue;
             text-align: left;
             border-radius: 20px;
             cursor: pointer;
             transition: .1s ease;
-            
+
             &:hover {
-                
+
                 background: $skyblue;
                 color: $white;
                 font-weight: 700;
