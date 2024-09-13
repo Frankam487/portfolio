@@ -1,4 +1,5 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import Icons from "./Icons";
 const Home = () => {
     const {text} = useTypewriter({
         words: ["developper", "photographe", "designer"],
@@ -7,6 +8,7 @@ const Home = () => {
     });
     return ( 
         <div className="home">
+            <Icons/>
             <div className="name-content">
                 <h4>Salut, J'suis</h4>
                 <h1>Frank Kamgang</h1>

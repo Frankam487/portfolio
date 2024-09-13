@@ -1,8 +1,7 @@
 .home {
-
     position: absolute;
-    top: 40%;
-    left: 9%;
+    top: 36%; 
+    left: 12%; 
     font-family: $font3;
 
     .name-content {
@@ -58,4 +57,7 @@
             }
         }
     }
+}
+body {
+    min-height: 200vh;
 }
