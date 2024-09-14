@@ -1,14 +1,17 @@
 .home {
     position: absolute;
-    top: 36%; 
-    left: 12%; 
+    top: 36%;
+    left: 12%;
     font-family: $font3;
+    min-height: 100vh;
 
     .name-content {
         padding: 10px 0;
+        margin: 14px 0;
 
         h1 {
             color: $darkblue;
+            font-size: 2.5rem;
             font-weight: 900;
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8),
                 -1px -1px 0px rgba(0, 0, 0, 0.8),
@@ -16,25 +19,29 @@
                 -1px 1px 0px rgba(0, 0, 0, 0.8);
             letter-spacing: 3px;
         }
-
+        
         h4 {
-            font-size: 1.5rem;
+            font-weight: 600;
+            font-size: 2rem;
             color: $skyblue;
         }
 
         h5 {
-            font-size: 1.1rem;
-            margin: 7px 0;
+            font-size: 1.7rem;
+            margin: 11px 0;
+            font-weight: bold;
         }
     }
 
     p {
         margin: 20px auto;
+        color: rgba(0, 0, 0, 0.767);
+        font-weight: 600;
     }
-
+    
     .btns-container {
         margin-left: -30px;
-        padding: 10px;
+        padding: 20px;
 
         .tel {
             background: $skyblue;
@@ -42,22 +49,19 @@
 
         button {
             margin: 0 20px;
-            padding: 10px;
+            padding: 20px 40px;
             border: 2px solid $skyblue;
             text-align: left;
-            border-radius: 20px;
+            border-radius: 30px;
             cursor: pointer;
-            transition: .1s ease;
-
+            transition: .4s ease;
+            
             &:hover {
 
                 background: $skyblue;
                 color: $white;
-                font-weight: 700;
+                transform: scale(1.1) translate(12px);
             }
         }
     }
-}
-body {
-    min-height: 200vh;
 }
