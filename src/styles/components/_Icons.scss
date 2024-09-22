@@ -9,7 +9,6 @@
     padding: 5px;
     
     a {
-        
         color: rgba(0, 0, 0, 0.865);
         font-size: 1.3rem;
         padding: 17px 9px;
@@ -20,6 +19,7 @@
 
         &:hover {
             transform: translateX(15%);
+            color: $skyblue;
         }
     }
 }

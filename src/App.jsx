@@ -1,13 +1,22 @@
-
+import AboutMe from "./components/AboutMe";
+import Expertise from "./components/Expertise";
 import Header from "./components/Header";
-import Home from "./components/Home";
+import { Home } from "./components/Home";
+import Offres from "./components/Offres";
+import Parcours from "./components/Parcours";
+import Skills from "./components/Skills";
+
 
 const App = () => {
     return (
         <div className="app">
-         <Header/>
+            <Header/>
             <Home />
-          
+            <Skills />
+            <AboutMe />
+            <Expertise />
+            <Parcours />
+            <Offres/>
         </div>
     );
 }
