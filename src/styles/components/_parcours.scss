@@ -1,6 +1,7 @@
 .parcours {
     margin: 60px auto;
 
+    // background-color: red;
     span {
         color: $skyblue;
     }
@@ -63,6 +64,10 @@
                     top: 0;
                     left: -10px;
                 }
+
+                &:hover::after {
+                    background: $skyblue
+                }
             }
 
             h3,
@@ -93,6 +98,9 @@
                     left: -10px;
                 }
 
+                &:hover::after {
+                    background: $skyblue;
+                }
             }
 
             h3,

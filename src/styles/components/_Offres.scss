@@ -11,7 +11,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        // background-color: red;
+
 
         .item {
             border: 1px solid rgba(0, 0, 0, 0.273);
@@ -20,7 +20,15 @@
             margin: 10px;
             position: relative;
             margin: 30px;
-            &::after{
+            transition: .7s ease;
+            
+            &:hover{
+                background: $skyblue;
+                color: $white;
+                transform: scale(1.07);
+            }
+
+            &::after {
                 content: '';
                 position: absolute;
                 background-color: $skyblue;
@@ -30,7 +38,11 @@
                 top: -30px;
                 text-align: center;
                 justify-content: center;
-                
+
+            }
+
+            &:hover::after {
+                background: $whiteCasse;
             }
 
             p {
@@ -38,7 +50,6 @@
                 height: 80px;
                 overflow: hidden;
                 text-overflow: ellipsis;
-                border: 1px solid $whiteCasse;
             }
 
         }

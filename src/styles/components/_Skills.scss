@@ -1,8 +1,7 @@
 .skills {
-    // background-color: red;
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    background-color: #fff;
+    background-color: $white;
     padding: 12px;
     transform: translate(50% -50%);
     margin: 0 auto;
@@ -15,7 +14,6 @@
     .support {
         display: grid;
         grid-template-columns: 25% 75%;
-        // background-color: red;
         text-align: center;
         align-items: center;
         width: 70%;
@@ -46,7 +44,7 @@
        
         padding: 12px;
         margin: 12px;
-        border-right: 1px solid teal;
+        // border-right: 1px solid teal;
 
     }
 

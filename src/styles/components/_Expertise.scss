@@ -65,10 +65,10 @@
 
                     &::after {
                         position: absolute;
-                        background: #000;
+                        background: $black;
                         padding: 1px 8px;
                         background: $skyblue;
-                        color: #fff;
+                        color: $white;
                         font-size: 12px;
                         border-radius: 3px;
                         top: -28px;
@@ -76,6 +76,8 @@
                         animation: showTexte 0.5s 1.5s linear forwards;
                         opacity: 0;
                     }
+
+                   
 
                     &::before {
                         content: '';
@@ -88,7 +90,7 @@
                         border-right-width: 0px;
                         // animation: showTexte .5s 1.5s linear forwards;
                         animation: showTexte 0.5s 1.5s linear forwards;
-                        border-top-color: #000;
+                        border-top-color: $black;
                         opacity: 0;
                         top: -10px;
 

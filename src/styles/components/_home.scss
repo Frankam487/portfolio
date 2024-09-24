@@ -1,6 +1,4 @@
-* {
-    // border: 1px solid red;
-}
+
 
 .content {
     grid-template-columns: 60% 30%;
@@ -61,7 +59,7 @@
 
 
 
-        .btns-container {
+        .btn-container {
             margin: 12px 0;
 
             .tel {
@@ -109,7 +107,7 @@
 
 @media screen and (max-width: 700px) {
 
-    .btns-container {
+    .btn-container {
         // width: 100%;
         display: flex;
         flex-direction: column;
@@ -129,7 +127,7 @@
 }
 
 @media screen and (max-width: 500px) {
-    .btns-container {
+    .btn-container {
 
         button,
         .tel {
