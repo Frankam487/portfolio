@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import { Home } from "./components/Home";
 import Offres from "./components/Offres";
 import Parcours from "./components/Parcours";
+import Portfolio from "./components/Portfolio";
 import Skills from "./components/Skills";
 
 
@@ -16,7 +17,8 @@ const App = () => {
             <AboutMe />
             <Expertise />
             <Parcours />
-            <Offres/>
+            <Offres />
+            <Portfolio/>
         </div>
     );
 }

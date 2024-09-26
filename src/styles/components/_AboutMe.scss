@@ -4,6 +4,15 @@
     display: grid;
     grid-template-columns: 40% 60%;
 
+    @media screen and (max-width: 810px) {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto;
+        .image {
+            height: 500px;
+        }
+    }
+
     h2 {
         color: $skyblue;
     }
@@ -91,7 +100,7 @@
                 span {
 
                     color: $skyblue;
-                 
+
                 }
 
             }
