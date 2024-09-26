@@ -5,13 +5,15 @@ import { Home } from "./components/Home";
 import Offres from "./components/Offres";
 import Parcours from "./components/Parcours";
 import Portfolio from "./components/Portfolio";
+
 import Skills from "./components/Skills";
 import Mind from "./components/Mind";
 import Clients from "./components/Clients";
 
-
 const App = () => {
+   
     return (
+        <>
         <div className="app">
             <Header/>
             <Home />
@@ -24,7 +26,9 @@ const App = () => {
             <Mind/>
             <Clients/>
         </div>
+        </>
     );
+    
+    
 }
-
-export default App;
+    export default App;

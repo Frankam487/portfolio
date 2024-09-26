@@ -1,3 +1,66 @@
-.clients{
-    background-color: red;
+.clients {
+    .text {
+        flex-direction: column;
+        @include childCenter;
+        margin: 60px auto;
+
+        h3 {
+            color: $skyblue;
+            letter-spacing: 1.5px;
+        }
+
+        h1 {
+            font-weight: 800;
+            color: $darkblue;
+
+            span {
+                font-family: $font3;
+                font-weight: 900;
+                color: $skyblue;
+            }
+        }
+    }
+
+    .each {
+        width: 55%;
+        
+        display: flex;
+        
+        .stars {
+            margin: 0 22px;
+            margin: 5px 0;
+            display: flex;
+            
+            span {
+                text-align: right;
+                color: $skyblue;
+                
+            }
+        }
+        
+        .name {
+            background-color: red;
+            display: flex;
+            flex-direction: column;
+            margin: 0 12px;
+
+            p {
+                margin: 5px 0;
+                text-style: italic;
+                text-align: left;
+            }
+
+        }
+
+        img {
+            height: 50px;
+            width: 50px;
+            background: #fff;
+            border-radius: 50%;
+        }
+    }
+
+    p {
+        text-align: center;
+    }
 }
