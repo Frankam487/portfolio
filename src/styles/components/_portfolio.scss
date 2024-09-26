@@ -35,6 +35,8 @@
             width: 500px;
             position: relative;
 
+
+            // background-color: red;
             img {
                 width: 100%;
                 display: block;
@@ -46,8 +48,8 @@
         .content {
             height: 100%;
             width: 100%;
-            top: 0;
-            left: 0;
+            top: -220px;
+            left: -11px;
             position: absolute;
             background: rgba($black, 0.6);
             flex-direction: column;
@@ -56,11 +58,13 @@
             justify-content: center;
             align-items: center;
             transition: .6s;
+            
 
             &>* {
-                transform: translateY(25px);
+                transform: translateY(35px);
                 transition: transform .6s;
             }
+
             &:hover>* {
                 transform: translateY(0);
             }
@@ -68,7 +72,7 @@
             &:hover {
                 opacity: 1;
             }
-            
+
 
             h1 {
                 font-size: 45px;
