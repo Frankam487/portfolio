@@ -20,14 +20,69 @@ const Portfolio = () => {
         </li>
       </ul>
       <div className="projects">
+        
         <div className="image">
           <img src="../../public/fr.jpg" alt="" />
           <div className="content">
-            <h1>je suis labas</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae magnam tempore assumenda.</p>
+            <div className="btns">
+            <button>X</button>
+            <button>X</button>
+            </div>
+            <h2>Web Design</h2>
           </div>        
           </div>
-      </div>
+        <div className="image">
+          <img src="../../public/fr.jpg" alt="" />
+          <div className="content">
+            <div className="btns">
+            <button>X</button>
+            <button>X</button>
+            </div>
+            <h2>App Mobile</h2>
+          </div>        
+          </div>
+        <div className="image">
+          <img src="../../public/fr.jpg" alt="" />
+          <div className="content">
+            <div className="btns">
+            <button>X</button>
+            <button>X</button>
+            </div>
+            <h2>Graphic Design</h2>
+          </div>        
+          </div>
+        <div className="image">
+          <img src="../../public/fr.jpg" alt="" />
+          <div className="content">
+            <div className="btns">
+            <button>X</button>
+            <button>X</button>
+            </div>
+            <h2>Web Design</h2>
+          </div>        
+          </div>
+        <div className="image">
+          <img src="../../public/fr.jpg" alt="" />
+          <div className="content">
+            <div className="btns">
+            <button>X</button>
+            <button>X</button>
+            </div>
+            <h2>Web Design</h2>
+          </div>        
+          </div>
+        <div className="image">
+          <img src="../../public/fr.jpg" alt="" />
+          <div className="content">
+            <div className="btns">
+            <button>X</button>
+            <button>X</button>
+            </div>
+            <h2>Web Design</h2>
+          </div>        
+          </div>
+        
+        </div>
     </div>
   );
 };
