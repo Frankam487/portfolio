@@ -9,6 +9,7 @@ import Portfolio from "./components/Portfolio";
 import Skills from "./components/Skills";
 import Mind from "./components/Mind";
 import Clients from "./components/Clients";
+import Blog from "./components/Blog";
 
 const App = () => {
    
@@ -25,6 +26,7 @@ const App = () => {
             <Portfolio/>
             <Mind/>
             <Clients/>
+            <Blog/>
         </div>
         </>
     );

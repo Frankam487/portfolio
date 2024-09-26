@@ -20,37 +20,51 @@
             }
         }
     }
+.people-container{
+  
+    display: flex;
+    margin-top: 62px;
+}
+    .each-container {
 
-    .each {
-        width: 55%;
-        
         display: flex;
-        
-        .stars {
-            margin: 0 22px;
-            margin: 5px 0;
+        flex-direction: column;
+        width: 50%;
+        p {
+            text-align: left;
+            margin-top:22px;
+        }
+        .each{
+            
             display: flex;
             
-            span {
-                text-align: right;
-                color: $skyblue;
+            .stars {
+                display: flex;
                 
+                span {
+                    
+                    color: $skyblue;
+                    display: flex;
+                    justify-content: flex-end;
+                    gap: 10px;
+                    margin-top: 5px;
+                    
+                }
             }
-        }
-        
-        .name {
-            background-color: red;
+            
+            .name {
             display: flex;
             flex-direction: column;
             margin: 0 12px;
-
-            p {
+            
+            i {
                 margin: 5px 0;
-                text-style: italic;
+                
                 text-align: left;
             }
-
         }
+
+        
 
         img {
             height: 50px;
@@ -58,9 +72,8 @@
             background: #fff;
             border-radius: 50%;
         }
+        
+       
     }
-
-    p {
-        text-align: center;
-    }
+}
 }
