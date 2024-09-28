@@ -2,7 +2,7 @@ const Skills = () => {
   return (
     <div className="skills">
       <div className="years">
-        <span className="span"></span>
+        <span className="span text-green-600"></span>
         <div className="text">
           <h4>8 years Job</h4>
           <h5>Experience</h5>
