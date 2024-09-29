@@ -11,11 +11,12 @@ import Clients from "./components/Clients";
 import Mind from "./components/Mind";
 import Skills from "./components/Skills";
 
+import Formm from "./components/Formm";
+
 const App = () => {
   return (
     <>
       <div className="app">
-        
         <Header />
         <Home />
         <Skills />
@@ -27,6 +28,7 @@ const App = () => {
         <Mind />
         <Clients />
         <Blog />
+        <Formm />
       </div>
     </>
   );

@@ -1,4 +1,5 @@
 const Header = () => {
+  
   return (
     <div className="header">
       <div className="logo">
@@ -26,6 +27,7 @@ const Header = () => {
           <a href="">Blog</a>
         </li>
       </ul>
+     
     </div>
   );
 };

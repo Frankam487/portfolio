@@ -4,15 +4,25 @@
     display: grid;
     width: 100%;
     grid-template-columns: 10% 90%;
-.logo{
-    
-    h1{
-        width: 38px;
-        border: 1px solid $darkblue;
-        font-weight: 900;
+
+    .logo {
+
+        h1 {
+            width: 38px;
+            border: 1px solid $darkblue;
+            font-weight: 900;
+        }
     }
-}
+
     ul {
+        @media screen and (max-width: 888px) {
+            display: none;
+
+        }
+        @media screen and (max-width: 888px) {
+            display: none;
+
+        }
 
         margin-left: 22%;
         display: flex;

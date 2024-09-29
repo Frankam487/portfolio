@@ -1,7 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 import Icons from "./Icons";
 
-
 export const Home = () => {
   return (
     <>
@@ -34,7 +33,8 @@ export const Home = () => {
             </h5>
           </div>
           <p>
-            Passionne par le developpement d'interface utilisateur,<br /> <i >Developper des choses jolies me passionne beaucoup...</i>
+            Passionne par le developpement d'interface utilisateur,
+            <br /> <i>Developper des choses jolies me passionne beaucoup...</i>
           </p>
           <div className="btns-container">
             <button className="tel">Télécharger CV</button>
@@ -43,7 +43,6 @@ export const Home = () => {
         </div>
         <div className="image"></div>
       </div>
-
     </>
   );
 };
