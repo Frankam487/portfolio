@@ -34,8 +34,7 @@ export const Home = () => {
             </h5>
           </div>
           <p>
-            Lorem ipsum dolor sit amet,<br /> consectetur adipisicing elit. Inciis
-            voluptatibus iusttuyu...
+            Passionne par le developpement d'interface utilisateur,<br /> <i >Developper des choses jolies me passionne beaucoup...</i>
           </p>
           <div className="btns-container">
             <button className="tel">Télécharger CV</button>

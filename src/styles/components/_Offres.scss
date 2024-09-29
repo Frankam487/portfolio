@@ -12,6 +12,15 @@
         justify-content: center;
         align-items: center;
 
+        // .web {
+        //     position: absolute;
+
+        //     &::after {
+        //         content: '';
+        //         background-color: red;
+
+        //     }
+        // }
 
         .item {
             border: 1px solid rgba(0, 0, 0, 0.273);
@@ -21,8 +30,26 @@
             position: relative;
             margin: 30px;
             transition: .7s ease;
-            
-            &:hover{
+
+            h1 {
+                position: absolute;
+                top: -30px;
+                left: 46px;
+                z-index: 2;
+                color: rgb(255, 255, 255);
+                
+            }
+
+            h3 {
+                color: $darkblue;
+                font-weight: 900;
+            }
+
+            &>* {
+                margin: 12px 0;
+            }
+
+            &:hover {
                 background: $skyblue;
                 color: $white;
                 transform: scale(1.07);
@@ -33,6 +60,9 @@
                 position: absolute;
                 background-color: $skyblue;
                 border-radius: 16px;
+                font-size: 2rem;
+                color: white;
+                font-weight: 400;
                 height: 70px;
                 width: 70px;
                 top: -30px;
@@ -42,7 +72,10 @@
             }
 
             &:hover::after {
-                background: $whiteCasse;
+                // background: $whiteCasse;
+                background: $white;
+                font-size: 22rem;
+
             }
 
             p {
