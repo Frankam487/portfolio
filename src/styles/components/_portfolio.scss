@@ -1,51 +1,7 @@
 .portfolio {
-    .text {
-        @include childCenter;
-        flex-direction: column;
-    }
-
-    ul {
-
-        margin: 0 auto;
-        width: 50%;
-
-        @include alignChildren(space-around);
-
-        li {
-            font-size: 1.1rem;
-            margin: 12px 0;
-
-            a {
-                text-decoration: none;
-                font-family: Arial, Helvetica, sans-serif;
-                color: $darkblue;
-                font-weight: 700;
-            }
-        }
-    }
-
+    
     .projects {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-
-        .image {
-            width: 400px;
-            margin: 12px;
-            position: relative;
-
-            img {
-                box-shadow: 10px 10px 10px $black;
-                width: 100%;
-                display: block;
-                margin: auto;
-                border-radius: 12px;
-            }
-
-        }
-
+    
         .content {
             height: 100%;
             width: 100%;
@@ -59,6 +15,9 @@
             justify-content: center;
             align-items: center;
             transition: .6s;
+            @media screen and (max-width: 860px){
+                top: -100px;
+            }
 
             .btns {
                 display: flex;
@@ -99,6 +58,7 @@
 
             &:hover {
                 opacity: 1;
+                
             }
 
 

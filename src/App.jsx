@@ -12,6 +12,7 @@ import Mind from "./components/Mind";
 import Skills from "./components/Skills";
 
 import Formm from "./components/Formm";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
         <Clients />
         <Blog />
         <Formm />
+        <Footer/>
       </div>
     </>
   );

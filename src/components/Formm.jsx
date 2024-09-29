@@ -7,15 +7,15 @@ function Formm() {
         <h2 className="text-blue-400 font-semibold">Me Contacter</h2>
         <h1 className="text-blue-900 font-extrabold text-3xl">Get in Touch</h1>
       </div>
-      <div className="grid items-center justify-center bg-gray-250   grid-cols-[60%_40%] gap-4 w-full p-6 bg-white rounded shadow-md">
-        <form className="w-full  p-5 bg-white rounded shadow-md">
-          <div className="flex justify-between gap-4">
+      <div className="grid items-center  grid-cols-[60%_40%] w-full p-6 bg-white 700px:bg-red-500 rounded shadow-md">
+        <form className="py-6 w-full rounded-sm ">
+          <div className="flex justify-between gap-4 ">
             <div className="flex-1">
               <input
                 type="text"
                 id="input1"
                 className="p-2 border border-gray-300 rounded w-full"
-                placeholder="Entrez la première valeur"
+                placeholder="Entrez votre prenom"
               />
             </div>
 
@@ -24,7 +24,7 @@ function Formm() {
                 type="text"
                 id="input2"
                 className="p-2 border border-gray-300 rounded w-full"
-                placeholder="Entrez la seconde valeur"
+                placeholder="Entrez votre nom"
               />
             </div>
           </div>
@@ -33,14 +33,14 @@ function Formm() {
             type="text"
             id="inputMiddle"
             className="p-2 my-2 border border-gray-300 rounded w-full"
-            placeholder="Entrez une valeur"
+            placeholder="Sujet"
           />
 
           <textarea
             id="textarea"
             className="p-2 my-2 border border-gray-300 rounded w-full"
             rows="4"
-            placeholder="Entrez une description"
+            placeholder="Message"
           ></textarea>
 
           <button
@@ -50,7 +50,7 @@ function Formm() {
             Soumettre
           </button>
         </form>
-        <div className="py-10 flex flex-col">
+        <div className="py-18 flex flex-col">
           <div className=" m-2 flex items-center  ml-12">
             <img
               src=""
@@ -69,10 +69,10 @@ function Formm() {
               alt=""
               className="w-2 p-7 h-2  rounded-full bg-blue-500"
             />
-            <div
-              className="flex flex-col ml-7 justify-start w-full"
-            >
-              <h3 className="font-Arial text-start font-bold text-lg">E-mail</h3>
+            <div className="flex flex-col ml-7 justify-start w-full">
+              <h3 className="font-Arial text-start font-bold text-lg">
+                E-mail
+              </h3>
               <span className="text-start">fkamgang06@gmail.com</span>
             </div>
           </div>
