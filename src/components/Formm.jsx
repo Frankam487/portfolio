@@ -7,7 +7,7 @@ function Formm() {
         <h2 className="text-blue-400 font-semibold">Me Contacter</h2>
         <h1 className="text-blue-900 font-extrabold text-3xl">Get in Touch</h1>
       </div>
-      <div className="grid items-center  grid-cols-[60%_40%] w-full p-6 bg-white 700px:bg-red-500 rounded shadow-md">
+      <div className="grid items-center px-[100px]  grid-cols-[60%_40%] w-full p-6 bg-white 700px:bg-red-500 rounded shadow-md">
         <form className="py-6 w-full rounded-sm ">
           <div className="flex justify-between gap-4 ">
             <div className="flex-1">

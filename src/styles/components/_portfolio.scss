@@ -1,81 +1,68 @@
 .portfolio {
-    
+
     .projects {
-    
         .content {
-            height: 100%;
-            width: 100%;
-            top: -220px;
-            left: -11px;
-            position: absolute;
-            background: rgba($black, 0.6);
-            flex-direction: column;
-            opacity: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            transition: .6s;
-            @media screen and (max-width: 860px){
-                top: -100px;
-            }
+           
+        
 
-            .btns {
-                display: flex;
+        .btns {
+         
 
-                button {
-                    margin: 0 10px;
-                    padding: 10px;
-                    border-radius: 4px;
-                    border: transparent;
-                    transition: .3s ease;
+            button {
+                // margin: 0 10px;
+                // padding: 10px;
+                // border-radius: 4px;
+                // border: transparent;
+                // transition: .3s ease;
 
-                    cursor: pointer;
-                    &:hover {
-                        transform: scale(1.1);
-                    }
+                // cursor: pointer;
 
-                }
-
+                // &:hover {
+                //     transform: scale(1.1);
+                // }
 
             }
 
-            h2 {
-                color: $white;
-                margin: 22px;
-            }
-
-            &>* {
-                transform: translateY(35px);
-
-                transition: transform .6s;
-            }
-
-            &:hover>* {
-                transform: translateY(0);
-
-
-            }
-
-            &:hover {
-                opacity: 1;
-                
-            }
-
-
-            h1 {
-                font-size: 45px;
-                color: $darkblue;
-                margin-bottom: 15px;
-            }
-
-            p {
-                color: $skyblue;
-                font-size: 19px;
-            }
 
         }
 
+        h2 {
+            color: $white;
+            margin: 22px;
+        }
 
+        // &>* {
+        //     transform: translateY(35px);
+
+        //     transition: transform .6s;
+        // }
+
+        // &:hover>* {
+        //     transform: translateY(0);
+
+
+        // }
+
+        // &:hover {
+        //     opacity: 1;
+
+        // }
+
+
+        h1 {
+            font-size: 45px;
+            color: $darkblue;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: $skyblue;
+            font-size: 19px;
+        }
 
     }
+
+
+
+}
 }
