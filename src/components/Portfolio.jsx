@@ -22,8 +22,8 @@ const Portfolio = () => {
       <div className="projects flex flex-wrap items-center justify-center">
         <div className="image m-12 relative w-[400px]">
           <img src="../../public/fr.jpg" alt="" className="w-full" />
-          <div className="absolute top-[-0px] left-[-11px] h-full w-full text-white bg-black/60 flex flex-col  items-center opacity-0 duration-600 hover:opacity-100  md:top-[-220px]">
-            <div className="btns flex transform translate-y-[195px] transition-transform duration-600 group-hover:translate-y-0">
+          <div className="">
+            <div className="btns ">
               <button className="flex">X</button>
               <button className="flex">X</button>
             </div>

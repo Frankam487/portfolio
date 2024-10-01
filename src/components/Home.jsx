@@ -5,20 +5,18 @@ export const Home = () => {
   return (
     <>
       <Icons />
-      <div className="content">
-        <div className="home">
-          <div className="name-content">
-            <h4>Salut, je suis</h4>
-            <h1>Frank Kamgang</h1>
-            <h5>
-              <span style={{ background: "red" }}>
-                <TypeAnimation
-                  style={{
-                    color: "#007bff",
-                    fontWeight: "100",
-                    fontSize: "1.5rem",
-                    fontFamily: "sans-serif",
-                  }}
+      <div className="content 1005:flex grid grid-cols-[55%_35%] my-48">
+        <div className="home w-full text-center">
+          <div className="name-content mx-36">
+            <h4 className="text-1xl text-cyan-500 font-bold my-2">
+              Salut, je suis
+            </h4>
+            <h1 className="text-3xl font-extrabold text-blue-950 flex-1">
+              Frank Kamgang
+            </h1>
+            <h5 >
+              <span >
+                <TypeAnimation className="text-cyan-200"
                   sequence={[
                     "Hey!!!",
                     1000,
@@ -32,16 +30,26 @@ export const Home = () => {
               </span>
             </h5>
           </div>
-          <p>
+          <p className="my-8 font-bold text-center">
             Passionne par le developpement d'interface utilisateur,
             <br /> <i>Developper des choses jolies me passionne beaucoup...</i>
           </p>
-          <div className="btns-container">
-            <button className="tel">Télécharger CV</button>
-            <button className="contact">Me contacter</button>
+          <div className="btns-container mx-auto flex my-10 items-center justify-center">
+            <button className="tel flex transform hover:scale-110 hover:-translate-x-1 transition-transform duration-300justify-center items-center mx-[7px] p-[14px_32px] border-2 border-sky-500 rounded-[30px] cursor-pointer duration-400 ease text-1xl">
+              Télécharger CV
+            </button>
+            <button className="contact flex justify-center items-center p-[14px_32px] border-2 border-sky-500 rounded-[30px] cursor-pointer duration-400 ease transform hover:scale-110 hover:-translate-x-1 transition-transform duration-300">
+              Me contacter
+            </button>
           </div>
         </div>
-        <div className="image"></div>
+        <div className="image  1005:bg-reg-400">
+          <img
+            src="../../../public/images.jpeg"
+            alt=""
+            className="text-center mx-auto  rounded-md drop-shadow-sm w-[400px]"
+          />
+        </div>
       </div>
     </>
   );

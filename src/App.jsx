@@ -20,7 +20,6 @@ const App = () => {
       <div className="app">
         <Header />
         <Home />
-        <Skills />
         <AboutMe />
         <Expertise />
         <Parcours />
