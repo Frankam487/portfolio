@@ -5,7 +5,7 @@ export const Home = () => {
   return (
     <>
       <Icons />
-      <div className="content ">
+      <div className="content " id='acceuil'>
         <div className="home text-center">
           <div className="name-content mx-36">
             <h4 className="text-1xl text-cyan-500 font-bold my-2">
