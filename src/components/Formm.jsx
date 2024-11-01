@@ -1,6 +1,27 @@
-import React from "react";
+import axios from "axios";
+import React, { useEffect } from "react";
+import { useForm } from "react-hook-form";
+
 
 function Formm() {
+const form = useForm();
+const {register, control, handleSubmit, errors} = form;
+const data ={};
+const onSubmit = (e) => {
+  data = {
+    prenom: e.name,
+    nom: e.surname,
+    subject: e.subject,
+    message: e.textarea
+  }
+  axios.post("http://localhost:2001/user", data)
+}
+  
+      
+    
+  
+  
+  
   return (
     <>
       <div className="form">
@@ -10,22 +31,26 @@ function Formm() {
           <h1 className="text-blue-900 font-extrabold text-3xl">Get in Touch</h1>
         </div>
         <div className="form-container ">
-          <div className="form-content">
+        
+          <div className="form-content" onSubmit={handleSubmit(onSubmit)}>
           <form className="py-6 w-full rounded-sm ">
             <div className="flex justify-between gap-4 ">
               <div className="flex-1">
-                <input
+                <input id="surname"
+                {...register("surname", {minLength: 5})}
                   type="text"
-                  id="input1"
+                  
                   className="p-2 border border-gray-300 rounded w-full"
                   placeholder="Entrez votre prenom"
                 />
+                {errors && <p style={{color: 'red'}}>erreur</p>}
               </div>
 
               <div className="flex-1">
                 <input
                   type="text"
-                  id="input2"
+                  id="name"
+                  {...register("name")}
                   className="p-2 border border-gray-300 rounded w-full"
                   placeholder="Entrez votre nom"
                 />
@@ -34,13 +59,15 @@ function Formm() {
 
             <input
               type="text"
-              id="inputMiddle"
+              id="subject"
+              {...register("subject")}
               className="p-2 my-2 border border-gray-300 rounded w-full"
               placeholder="Sujet"
             />
 
             <textarea
               id="textarea"
+              {...register("textarea")}
               className="p-2 my-2 border border-gray-300 rounded w-full"
               rows="4"
               placeholder="Message"

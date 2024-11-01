@@ -1,7 +1,7 @@
 
 .content {
     grid-template-columns: 100%;
-    // background-color: red;
+    
     display: grid;
     margin: 100px 0;
 
@@ -180,9 +180,42 @@
         button,
         .tel {
             width: 100%;
-            // padding: 1px 1px;
             width: 100%;
         }
     }
 
+}
+.movee {
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgba(5, 170, 235, 0.577);
+    border-radius: 50%;
+    position: absolute;
+    transition: .07s;
+    transform: translate(-50%, -50%);
+    background: rgba(235, 249, 249, 0.101);
+    &::after{
+        content: "";
+        position: absolute;
+        border: 2px solid rgba(2, 23, 65, 0.614);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        transition: 2s ease-in-out;
+        transform: translate(-24%, -20%);
+        text-shadow: 10px 7px 10px -3px $black;
+        
+    }
+    &::before{
+        content: "";
+        transform: translate(-20%, -50%);
+        position: absolute;
+        border: 2px solid rgba(148, 160, 17, 0.614);
+        width: 30px;
+        height: 33px;
+        border-radius: 50%;
+        
+        text-shadow: 10px 7px 10px -3px $black;
+
+    }
 }

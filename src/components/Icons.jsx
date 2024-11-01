@@ -1,4 +1,11 @@
+import { useEffect } from "react";
+
 const Icons = () => {
+   useEffect(() => {
+      const icon = document.querySelector(".icons");
+      icon.style.transformTranslateY = -50 + "%";
+      
+   }, [])
    return (
       <div className="icons">
          <a href="https://www.facebook.com/Frankam.Shopping" target="_blank" className="fab fa-facebook"></a>

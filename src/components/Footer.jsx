@@ -8,7 +8,7 @@ function Footer() {
           H.
         </span>
         <p className="text-center my-4 text-cyan-50">
-          Lorem sapiente Lorem sapiente aut. Quis ea veritatis molestiae.
+          Pour plus d'informations, veuillez me contacter ou vous mes travaux via ces réseaux sociaux ...
         </p>
         <div className="flex justify-around ">
           <a
@@ -30,7 +30,7 @@ function Footer() {
         </div>
         <div className="parag">
 
-          <p className="mt-6 text-cyan-50 font-arial">Tout droit réservé... </p>
+          <p className="mt-6 text-cyan-50 font-arial">2024 - &copy Tout droit réservé... </p>
           <h2><span>By</span>      Frank Kamgang</h2>
       
         </div>
