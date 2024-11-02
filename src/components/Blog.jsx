@@ -9,6 +9,7 @@ const Blog = () => {
       date: "12/14/2024",
       text: "Je fais le developpement d'appli mobile et aussi dans le graphisme(photoshop)"
     },
+    
     {
       id: 1,
       image: "../../4.jpg",
